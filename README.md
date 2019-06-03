@@ -53,8 +53,8 @@ Answer the questions below using the following code example.
 ?: Talk about bad ideas, king cobras are not good pets. How can we remove the `span` with the `id` "king-cobra"?
 
 ( ) `document.querySelector("span").delete("#king-cobra");`
-(X) `x = document.querySelector("span#king-cobra"); y = x.parentNode; y.removeChild(x);`
-( ) `x = document.querySelector("span#king-cobra"); y = x.parentNode(); y.removeChild(x);`
+(X) `el = document.querySelector("span#king-cobra"); y = el.parentNode; y.removeChild(el);`
+( ) `el = document.querySelector("span#king-cobra"); y = el.parentNode(); y.removeChild(el);`
 ( ) `document.querySelector("ul").removeChild("span#king-cobra");`
 
 ?: We’ve been inundated by cat owners who are angry that we have missed their favorite species of pet. What JavaScript snippet will add an `li` with a `span` inside with the text "Nancy Drew (the cat)" inside to our `ul`?
