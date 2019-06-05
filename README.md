@@ -67,7 +67,7 @@ Answer the questions below using the following code example.
 ?: What JavaScript command would return the name of the mongoose?
 
 ( ) `document.querySelectorAll("#mongoose").text;`
-(X) `document.querySelector("#mongoose").textValue;`
+(X) `document.querySelector("#mongoose").textContent;`
 ( ) `document.querySelector("#mongoose").text;`
 ( ) `document.querySelectorAll("#mongoose").content;`
 
