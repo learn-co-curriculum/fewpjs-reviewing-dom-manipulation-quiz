@@ -61,7 +61,7 @@ Answer the questions below using the following code example.
 
 ( ) `document.getElementsByTagName("ul")[0] += "<li><span id=\"cat\">Nancy Drew (the cat)</span></li>";`
 ( ) `ul = document.getElementsByTagName("ul")[0]; ul.innerText += "<li><span id=\"cat\">Nancy Drew (the cat)</span></li>";`
-(X)`base = document.getElementsByTagName("li")[0].parentNode; item = document.createElement("li"); s = document.createElement("span"); s.id = "cat"; s.textContent = "Nancy Drew (the cat)"; item.appendChild(s); base.appendChild(item)`
+(X)`base = document.getElementsByTagName("ul")[0]; item = document.createElement("li"); s = document.createElement("span"); s.textContent = "Nancy Drew (the cat)"; item.appendChild(s); base.appendChild(item)`
 ( )`base = document.getElementsByTagName("li")[0].parentNode; item = document.createElement("li"); s = document.createElement("span#cat"); s.textContent = "Nancy Drew (the cat)"; item.addChild(s); base.addChild(item)`
 
 ?: What JavaScript command would return the name of the mongoose?
