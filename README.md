@@ -7,9 +7,9 @@ Answer the questions below using the following code example.
   <h1>List of pets ideal for city-dwellers</h1>
   <div>
     <ul>
-      <li><span id="dog">Poodle</li>
-      <li><span id="king-cobra">Nag</li>
-      <li><span id="mongoose">Joe Mongoose</li>
+      <li><span id="dog">Poodle</span></li>
+      <li><span id="king-cobra">Nag</span></li>
+      <li><span id="mongoose">Joe Mongoose</span></li>
    </ul>
   </div>
 </body>
@@ -53,7 +53,7 @@ Answer the questions below using the following code example.
 ?: Talk about bad ideas, king cobras are not good pets. How can we remove the `span` with the `id` "king-cobra"?
 
 ( ) `document.querySelector("span").delete("#king-cobra");`
-(X) `el = document.querySelector("span#king-cobra"); y = el.parentNode; y.removeChild(el);`
+(X) `el = document.querySelector("#king-cobra"); el.remove();`
 ( ) `el = document.querySelector("span#king-cobra"); y = el.parentNode(); y.removeChild(el);`
 ( ) `document.querySelector("ul").removeChild("span#king-cobra");`
 
